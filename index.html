@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOTERIAA</title>
+    <link rel="stylesheet" href="seesese.css">
+</head>
+<body>
+    <h1>LOTERIA</h1>
+    <form id="combinationForm">
+        <label for="totalObjects"><h2>Total de Opciones:</h2></label>
+        <input type="number" id="totalObjects" required>
+        <br>
+        <label for="selectedObjects"><h2>Opciones Seleccionadas:</h2> </label>
+        <input type="number" id="selectedObjects" required>
+        <br>
+        <button type="button" onclick="calcularCombinaciones()">CALCULAR</button>
+        <div id="result"></div>
+    </form>
+    <script src="JS RUELTA.js"></script>
+</body>
+</html>
